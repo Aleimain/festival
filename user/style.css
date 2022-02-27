@@ -1,0 +1,27 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+.container-user {width: 500px;margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px;}
+.container-user::before {content: "";display: table;}
+.container-user::after {content: "";display: table;}
+.body {width: 500px;}
+h1 {font-family: roboto serif;font-size: 100px!important;text-align: center;font-weight: 900!important;}
+.form-box .container {width:300px;}
+.form-box .container form div input {width: 100%;height: 50px;background: #d35ba1;color: white;font-size: 20px;font-weight: unset;border-radius: 5px;border: 5px solid transparent;}
+.form-box .container form div:nth-child(1) input {background: #333;margin-bottom: 10px;}
+.form-box .container form div:nth-child(2) input {background: #333;margin-bottom: 10px;}
+.form-box .container form div:nth-child(3) input {background: #333;margin-bottom: 30px;}
+.form-box .container form div:nth-child(4) input {background-image: linear-gradient(345deg,#d35ba1 0,#5bc7ff 100%);border: 0px;}
+.form-box a {color: black;}
+.form-box .right {float: right;}
+.form-box .container form div input:focus {border: 0px;background: #d35ba1;}
+.form-box .container form div input:hover {border: 0px;background: #d35ba1;}
+
+
+/*@media*/
+@media (max-width: 460px) {
+	.container-user,.body,.form-box {width: 400px!important;}
+	h1 {font-size: 70px!important;}
+}
+
+
+
+
